@@ -1,4 +1,14 @@
 export const EXPECTED_HASHES: Record<string, string> = {
+
+  'node-v14.21.3-macos-x64':
+    'ea685a226897d45df423af919af200c49aa0602bab48ef161194a7a16f7e691e',
+  'node-v14.21.3-linux-arm64':
+    '98319bb4ef5ed6bf1624b6d684b50d53fda40803b2c882977f9a8a827f7db2ba',
+  'node-v14.21.3-linux-x64':
+    'bc5769e182789efdb1d8043896a637ec9b789b633675d55494c2f1a9f6a1fa1d',
+  'node-v14.21.3-win-x64':
+    '3c019915cb89c6aaa3f2b72b4b9691e5b08c6b2d8a1680e4c2ca94903418d0df',
+
   // 2a68741776e74f626c83254941a639ab7dcf6332
   // alpine: https://github.com/vercel/pkg-fetch/actions/runs/752615021
   // linux: https://github.com/vercel/pkg-fetch/actions/runs/752615173
